@@ -1,0 +1,192 @@
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+}    
+
+header h1 {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    color: #000000;
+    padding: 20px;
+    text-align: left;
+    margin: 0;
+}
+
+main {
+    padding: 0;
+}
+
+.container-contato1 {
+    background-color: #F2F2F2;
+    border-radius: 0;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+.container-contato1 h1 {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.container-contato2 {
+    background-color: #F2F2F2;
+    border-radius: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-contato2 h3 {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    padding: 0px;
+    text-align: center;
+    margin: 10px;
+}
+
+.container-contato2 p {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+}
+
+.container-contato2 h5 {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    padding: 0px;
+    text-align: center;
+    margin: 10px;
+}
+
+container-contato button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block; 
+}
+
+.container-contato2 button:hover {
+    background-color: #555;
+}
+
+.container-contato3 {
+    background-color: #F2F2F2;
+    border-radius: 0;
+    padding: 0;
+}
+
+#caixa1{
+    background-color: #07B0F2;
+    border-radius: 8px;
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin-right: 2.2%;
+    margin-left: 2.2%;
+}
+
+#caixa1 h2 {
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+#caixa1 p{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+#caixa2{
+    background-color: #6D8BA6;
+    border-radius: 8px;
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin-right: 2.2%;
+}
+
+#caixa2 h2 {
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+#caixa2 p{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+#caixa3{
+    background-color: #85A653;
+    border-radius: 8px;
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin-right: 2.2%;
+}
+
+#caixa3 h2 {
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+#caixa3 p{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.container-contato4 {
+    background-image: url('../images/img4.png'); 
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário de Contato</title>
+        <link href="../styles/form.css" rel="stylesheet" />
+    
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1> WebMind</h1>
+        
+        </header>
+
+        <main>
+
+            <div class="container-contato1">
+
+                <h3>Fale Conosco</h3>
+            
+            </div>
+
+            <div class="container-contato2">
+
+                <form action="" method="post">
+
+                    <table>
+                        <tr>
+                            <th><label for="nome">Nome:</label></th>
+                            <td><input type="text" placeholder="Nome completo" id="nome" name="nome" required></td>
+                        </tr>
+                        <tr>
+                            <th><label for="email">Email:</label></th>
+                            <td><input type="email" id="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <th><label for="Telefone">Telefone:</label></th>
+                            <td><input type="tel" pattern="^\(?d{2}\)\d{4}[-\s]\d{4}$" placeholder=" (XX) XXXX-XXXX" id="Telefone" name="Telefone" required></td>
+                        </tr>
+                        <tr>
+                            <th><label for="Idade">Idade:</label></th>
+                            <td><input type="number" min="18" id="Idade" name="Idade" required></td>
+                        </tr>
+                        <tr>
+                            <th><label for="genero">Gênero:</label></th>
+                            <td>
+                                <select id="genero" name="genero">
+                                    <option value="masculino">Masculino</option>
+                                    <option value="feminino">Feminino</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label for="interesses">Interesses:</label></th>
+                            <td>
+                                <input type="checkbox" id="Orçamento" name="interesses" value="Orçamento">
+                                <label for="Orçamento">Orçamento</label><br>
+                                <input type="checkbox" id="Dúvida" name="interesses" value="Dúvida">
+                                <label for="Dúvida">Dúvida</label><br>
+                                <input type="checkbox" id="Outros" name="interesses" value="Outros">
+                                <label for="Outros">Outros</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label for="mensagem">Mensagem:</label></th>
+                            <td><textarea id="mensagem" name="mensagem" rows="4" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="submit"  autofocus="" value="Enviar"></td>
+                            <td><input type="button" value="Voltar" onClick="history.go(-1)"></td>
+                        </tr>
+                    </table>
+
+                </form>
+
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="container-contato3">
+
+                <img src="../images/img3.png" height="100%" width="100%">
+                
+            </div>
+
+        </main>
+
+        <footer>
+            <p class="copyright">© 2020 - 2024 webmind.com.br</p>
+        </footer>
+
+    </body>
+
+</html>
